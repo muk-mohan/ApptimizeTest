@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sLastname" value="Mukherjee"/>
+  <parameter name="sEmail" value="mmukher1@stevens.edu"/>
+  <parameter name="sUsername" value="Mohan"/>
+  <parameter name="sTitle" value="Software QA Engineer"/>
+  <parameter name="sCompany" value="Apptimize Candidate"/>
+  <parameter name="sPhone" value="201-889-0194"/>
+  <parameter name="sPassword" value="12345678"/>
+  <test name="Test(failed)">
+    <parameter name="sLastname" value="Mukherjee"/>
+    <parameter name="sEmail" value="mmukher1@stevens.edu"/>
+    <parameter name="sUsername" value="Mohan"/>
+    <parameter name="sTitle" value="Software QA Engineer"/>
+    <parameter name="sCompany" value="Apptimize Candidate"/>
+    <parameter name="sPhone" value="201-889-0194"/>
+    <parameter name="sPassword" value="12345678"/>
+    <classes>
+      <class name="apptimizeSample.signUpTest">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="testLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- apptimizeSample.signUpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

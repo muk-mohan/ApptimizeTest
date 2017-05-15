@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <!--  <parameter name="browser" value="chrome" /> -->
+    <parameter name="sUsername" value="Mohan"/>
+    <parameter name="sLastname" value="Mukherjee"/>
+    <parameter name="sEmail" value="mmukher1@stevens.edu"/>
+    <parameter name="sCompany" value="Apptimize Candidate"/>
+    <parameter name="sPhone" value="201-889-0194"/>
+    <parameter name="sTitle" value="Software QA Engineer"/>
+    <parameter name="sPassword" value="12345678"/>
+    <classes>
+        <class name="apptimizeSample.signUpTest" />
+    </classes>
+  </test> <!-- Test -->
+  <!--   <test name="Test1">
+    <parameter name="browser" value="firefox" />
+    <parameter name="sUsername" value="Mohan"/>
+    <parameter name="sLastname" value="Mukherjee"/>
+    <parameter name="sEmail" value="mmukher1@stevens.edu"/>
+    <parameter name="sCompany" value="Apptimize Candidate"/>
+    <parameter name="sPhone" value="201-889-0194"/>
+    <parameter name="sTitle" value="Software QA Engineer"/>
+    <parameter name="sPassword" value="12345678"/>
+    <classes>
+        <class name="apptimizeSample.signUpTest" />
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->
